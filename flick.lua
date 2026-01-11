@@ -1,3 +1,8 @@
+if game.PlaceId ~= 136801880565837 then
+    game:GetService("Players").LocalPlayer:Kick("solvent only supports flick if you want it to support another game contact me")
+    return
+end
+
 local getinfo = getinfo or debug.getinfo
 local Detected, Kill
 
@@ -4386,5 +4391,6 @@ local configs = window:tab({ name = "configs" })
 		end)
 	end
 end
+
 
 
