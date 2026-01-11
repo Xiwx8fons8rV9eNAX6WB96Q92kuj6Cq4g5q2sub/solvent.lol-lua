@@ -38,7 +38,7 @@ end))
 setthreadidentity(7)
 
 local library =
-	loadstring(game:HttpGet("https://esex.rocks/p/raw/yb0xww3tya"))()
+	loadstring(game:HttpGet("https://library.solvent.lol/"))()
 local flags = library.flags
 
 local exec_name = "unknown"
@@ -4386,4 +4386,5 @@ local configs = window:tab({ name = "configs" })
 		end)
 	end
 end
+
 
